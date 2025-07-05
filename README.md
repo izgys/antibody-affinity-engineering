@@ -55,7 +55,7 @@ graph TD
     A[Start: SARS-CoV-2 Antibody-Antigen Complex 7BZ5] --> B[Extract VH/VL + CDR Regions]
     B --> C[Generate Mutations with ProteinMPNN / ESM-IF1]
     C --> D[Predict 3D Structures of Mutants]
-    D --> E[Score Binding Affinity (ΔΔG) with FoldX]
+    D --> E[Score Binding Affinity ΔΔG with FoldX]
     E --> F[Assess Developability Metrics]
     F --> G[Rank and Select Best Variants]
     G --> H[Visualize Mutations and Interface Contacts]
